@@ -1,0 +1,425 @@
+{
+    "title": "infotechno",
+    "pageType": "frontpage",
+    "content": [
+        {
+            "id": "infotechno-hero-content",
+            "section": "hero-section",
+            "images": [
+                {
+                    "src": "../images/hero/home-infotechno-main-slider-slide-01-image-01.png"
+                },
+                {
+                    "src": "../images/hero/home-infotechno-main-slider-slide-01-image-02.png"
+                }
+            ],
+            "headings": [
+                {
+                    "level": "h6",
+                    "content": "A Custom Drapery Workroom"
+                },
+                {
+                    "level": "h1",
+                    "content": "Marilyn's <br/> Windows <br/>& Interiors"
+                }
+            ],
+            "texts": [
+                {
+                    "content": "Together with her talented team, Marilyn is defining the exquisite art of custom design and couture window dressings."
+                }
+            ],
+            "buttons": [
+                {
+                    "id": 1,
+                    "path": "/",
+                    "content": "Book An Appointment Today"
+                }
+            ]
+        },
+        {
+            "id": "infotechno-partner",
+            "section": "partner-section",
+            "items": [
+                {
+                    "id": 1,
+                    "images": [
+                        {
+                            "src": "../images/partners/mitech-client-logo-01.png"
+                        },
+                        {
+                            "src": "../images/partners/mitech-client-logo-01-hover.png"
+                        }
+                    ],
+                    "path": "/"
+                },
+                {
+                    "id": 2,
+                    "images": [
+                        {
+                            "src": "../images/partners/mitech-client-logo-02.png"
+                        },
+                        {
+                            "src": "../images/partners/mitech-client-logo-02-hover.png"
+                        }
+                    ],
+                    "path": "/"
+                },
+                {
+                    "id": 3,
+                    "images": [
+                        {
+                            "src": "../images/partners/mitech-client-logo-03.png"
+                        },
+                        {
+                            "src": "../images/partners/mitech-client-logo-03-hover.png"
+                        }
+                    ],
+                    "path": "/"
+                },
+                {
+                    "id": 4,
+                    "images": [
+                        {
+                            "src": "../images/partners/mitech-client-logo-04.png"
+                        },
+                        {
+                            "src": "../images/partners/mitech-client-logo-04-hover.png"
+                        }
+                    ],
+                    "path": "/"
+                },
+                {
+                    "id": 5,
+                    "images": [
+                        {
+                            "src": "../images/partners/mitech-client-logo-05.png"
+                        },
+                        {
+                            "src": "../images/partners/mitech-client-logo-05-hover.png"
+                        }
+                    ],
+                    "path": "/"
+                },
+                {
+                    "id": 6,
+                    "images": [
+                        {
+                            "src": "../images/partners/mitech-client-logo-06.png"
+                        },
+                        {
+                            "src": "../images/partners/mitech-client-logo-06-hover.png"
+                        }
+                    ],
+                    "path": "/"
+                },
+                {
+                    "id": 7,
+                    "images": [
+                        {
+                            "src": "../images/partners/mitech-client-logo-07.png"
+                        },
+                        {
+                            "src": "../images/partners/mitech-client-logo-07-hover.png"
+                        }
+                    ],
+                    "path": "/"
+                },
+                {
+                    "id": 8,
+                    "images": [
+                        {
+                            "src": "../images/partners/mitech-client-logo-08.png"
+                        },
+                        {
+                            "src": "../images/partners/mitech-client-logo-08-hover.png"
+                        }
+                    ],
+                    "path": "/"
+                },
+                {
+                    "id": 9,
+                    "images": [
+                        {
+                            "src": "../images/partners/mitech-client-logo-09.png"
+                        },
+                        {
+                            "src": "../images/partners/mitech-client-logo-09-hover.png"
+                        }
+                    ],
+                    "path": "/"
+                }
+            ]
+        },
+        {
+            "id": "infotechno-feature",
+            "section": "feature-section",
+            "section_title": {
+                "title": "Custom Drapery and Soft Furnishing for Designers, Exquisite Homeowners & <span>Distinguished Clientele</span>",
+                "subtitle": "FEATURED SERVICES"
+            },
+            "motto": {
+                "text": "Do we REALLY NEED THIS TEXT? Do WE?",
+                "linkText": "Whaaaat!",
+                "link": "/it-services"
+            }
+        },
+        {
+            "id": "infotechno-about",
+            "section": "about-section",
+            "section_title": {
+                "title": "Custom Drapery and Soft Furnishing for Designers, Exquisite Homeowners & <span>Distinguished Clientele</span>",
+                "subtitle": "OUR COMPANY",
+                "description": "Custom Drapery and Soft Furnishing for Designers, Exquisite Homeowners & Distinguished Clientele"
+            },
+            "headings": [
+                {
+                    "level": "h2",
+                    "content": "<mark>30+</mark> YEARS’ EXPERIENCE"
+                },
+                {
+                    "level": "h5",
+                    "content": "-Put something here-"
+                }
+            ],
+            "texts": [
+                {
+                    "content": "For over 30 years, we have been in the business of creating beautiful fine window coverings, pillows, and custom bedding using couture methods. Our clients return again and again because of the exceptional quality and the detail-oriented designs that we deliver. We provide custom window treatment design solutions for residential and commercial spaces, across Oakville, Burlington, Mississauga, Georgetown, Milton and surrounding areas."
+                }
+            ],
+            "buttons": [
+                {
+                    "id": 1,
+                    "path": "/about-us",
+                    "content": "Hire Marilyn"
+                }
+            ],
+            "items": [
+                {
+                    "id": 1,
+                    "title": "How we can help your business?",
+                    "link": "/about-us"
+                },
+                {
+                    "id": 2,
+                    "title": "Why become our partner?",
+                    "link": "/about-us"
+                },
+                {
+                    "id": 3,
+                    "title": "What are the best of Mitech?",
+                    "link": "/about-us"
+                }
+            ]
+        },
+        {
+            "id": "infotechno-service",
+            "section": "service-section",
+            "section_title": {
+                "title": "How we claim to <span>excel?</span>",
+                "subtitle": "HIRE US, WHY NOT?"
+            },
+            "motto": {
+                "linkText": "",
+                "link": "/it-services"
+            }
+        },
+        {
+            "id": "infotechno-funfact",
+            "section": "funfact-section",
+            "items": [
+                {
+                    "id": 1,
+                    "count": 1056,
+                    "title": "Happy Clients",
+                    "description": "Successfully work with"
+                },
+                {
+                    "id": 2,
+                    "count": 491,
+                    "title": "FINISHED PROJECTS",
+                    "description": "Successfully completed"
+                },
+                {
+                    "id": 3,
+                    "count": 491,
+                    "title": "SKILLED EXPERTS",
+                    "description": "Recruit more than"
+                },
+                {
+                    "id": 4,
+                    "count": 491,
+                    "title": "MEDIA POSTS",
+                    "description": "Blog Update"
+                }
+            ]
+        },
+        {
+            "id": "infotechno-cta",
+            "section": "cta-section",
+            "headings": [
+                {
+                    "level": "h2",
+                    "content": "Share the joy of achieving glorious moments <br/> & climbing up the top."
+                }
+            ],
+            "video_button": {
+                "link": "https://www.youtube.com/watch?v=9No-FiEInLA",
+                "content": "Watch Video <br/> Intro"
+            }
+        },
+        {
+            "id": "infotechno-case-study",
+            "section": "case-study-section",
+            "section_title": {
+                "title": "Proud projects <span>make us excel</span>",
+                "subtitle": "CASE STUDIES"
+            },
+            "motto": {
+                "text": "Challenges are just opportunities in disguise.",
+                "linkText": "Take the challenge!",
+                "link": "/case-studies"
+            }
+        },
+        {
+            "id": "infotechno-testimonial",
+            "section": "testimonial-section",
+            "section_title": {
+                "title": "What do people praise about <span> Marilyn?</span>",
+                "subtitle": "Testimonials"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "name": "GUNDING & HANS LLP",
+                    "designation": "Barristers & Solicitors",
+                    "images": [
+                        {
+                            "src": "../images/avatar/avatar-01-90x90.jpg"
+                        }
+                    ],
+                    "rating": 5,
+                    "subject": "A Cherry on top!",
+                    "description": "The difference in the quality is extreme. Finally, when you can have warranties and worry-free assistance years after you have ordered the product, it is remarkable and reaffirming as to why the investment is so worthwhile. Thank you Marilyn you are always there for us!"
+                },
+                {
+                    "id": 2,
+                    "name": "Stephen Burke",
+                    "designation": "Key Account Executive",
+                    "images": [
+                        {
+                            "src": "../images/avatar/avatar-02-90x90.jpg"
+                        }
+                    ],
+                    "rating": 5,
+                    "subject": "It was a pleasure working with her.",
+                    "description": "Though our install was 6 years ago, she continues to serve, long after the sale was made. I would not hesitate to work with her again, or recommend her to others, who are looking for the best quality window treatments."
+                },
+                {
+                    "id": 3,
+                    "name": "Homeowner ",
+                    "designation": "Milton, Ontario ",
+                    "images": [
+                        {
+                            "src": "../images/avatar/avatar-03-90x90.jpg"
+                        }
+                    ],
+                    "rating": 5,
+                    "subject": "Fabulous Service!",
+                    "description": "Marilyn has provided great service… with our original blinds and then with replacements 15 years later! I had an issue and she took care of it personally. I really appreciated her help."
+                },
+                {
+                    "id": 4,
+                    "name": "Clara Bella",
+                    "designation": "Vaughn, Ontario",
+                    "images": [
+                        {
+                            "src": "../images/avatar/avatar-04-90x90.jpg"
+                        }
+                    ],
+                    "rating": 5,
+                    "subject": "Shade-o-Matic and design consultation",
+                    "description": "Marilyn’s service is extremely responsive, tailored and efficient. Everything was delivered and installed as anticipated with timing - if not a bit earlier even. Definitely recommend!"
+                },
+                {
+                    "id": 5,
+                    "name": "Ellen Hughes",
+                    "designation": "Milton, Ontario",
+                    "images": [
+                        {
+                            "src": "../images/avatar/avatar-04-90x90.jpg"
+                        }
+                    ],
+                    "rating": 5,
+                    "subject": "Window Treatments And Cushions.",
+                    "description": "We were first introduced to Marilyn’s Windows & Interiors years ago and they have been our go-to even since. Marilyn & her team will not disappoint."
+                },
+                {
+                    "id": 6,
+                    "name": "Brenda",
+                    "designation": "Acton, Ontario",
+                    "images": [
+                        {
+                            "src": "../images/avatar/avatar-04-90x90.jpg"
+                        }
+                    ],
+                    "rating": 5,
+                    "subject": "Many Project Locations Over Many Years",
+                    "description": "Whether a small project of one room to the largest of a 7,000 Sq ft new build, always, above and beyond service, quality and professionalism, service like no other. Very Refreshing working with Marilyn."
+                },
+                {
+                    "id": 7,
+                    "name": "Homeowner",
+                    "designation": "Ogoko, Ontario",
+                    "images": [
+                        {
+                            "src": "../images/avatar/avatar-04-90x90.jpg"
+                        }
+                    ],
+                    "rating": 5,
+                    "subject": "Drapes For The Main Room In The Cottage",
+                    "description": "Gorgeous drapes that were installed into a very difficult spot. I was extremely impressed with how well the drapes functioned and how beautiful they looked. Marilyn and her installer did an amazing job."
+                }
+            ]
+        },
+        {
+            "id": "infotechno-blog",
+            "section": "blog-section",
+            "section_title": {
+                "title": "Interesting articles <span>updated daily</span>",
+                "subtitle": "BLOGS & NEWS"
+            }
+        },
+        {
+            "id": "infotechno-contact-content",
+            "section": "contact-section",
+            "headings": [
+                {
+                    "level": "h1",
+                    "content": "Contact <span>Marilyn</span"
+                },
+                {
+                    "level": "h6",
+                    "content": "REACH OUT NOW!"
+                },
+                {
+                    "level": "h2",
+                    "content": "9058780626"
+                }
+            ],
+            "texts": [
+                {
+                    "content": "We look forward to working with you! Use this form, pick your favorite channel or email directly."
+                }
+            ],
+            "buttons": [
+                {
+                    "id": 1,
+                    "color": "secondary",
+                    "hoverStyle": "three",
+                    "path": "/contact-us",
+                    "content": "Contact Us"
+                }
+            ]
+        }
+    ]
+}

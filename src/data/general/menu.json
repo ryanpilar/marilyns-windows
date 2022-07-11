@@ -1,0 +1,32 @@
+{
+    "id": "menu-data",
+    "section": "menu",
+    "menu": [
+        {
+            "id": "menu-1",
+            "text": "Home",
+            "link": "/"
+        },
+        {
+            "id": "menu-2",
+            "text": "About Us",
+            "link": "/about-us"
+        },
+        {
+            "id": "menu-3",
+            "text": "My Services",
+            "link": "/it-services"
+        },
+        {
+            "id": "menu-4",
+            "text": "My Work",
+            "link": "/my-work"
+        },
+
+        {
+            "id": "menu-6",
+            "text": "Blog",
+            "link": "/blog"
+        }
+    ]
+}
