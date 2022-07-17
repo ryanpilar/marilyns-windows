@@ -1,3 +1,6 @@
+// this is to emulate the netlify-server functions
+const { createProxyMiddleware } = require("http-proxy-middleware");
+
 /**
  * Configure your Gatsby site with this file.
  *
@@ -22,6 +25,8 @@ module.exports = {
         siteUrl: "https://www.marilynswindows.com",
         canonical: "https://www.marilynswindows.com",
         getform: "https://getform.io/f/bdd66e45-0636-45e4-89fa-d54f9c9de14e",
+        // getform:
+        //     "https://api.getform.io/v1/forms/bdd66e45-0636-45e4-89fa-d54f9c9de14e?token=0bDt6l9MSTcxCq4YcocrPAqRNF7B9P2OQJDQIcvBGVjAwqBBtjN8u0AF6c98",
         copyright:
             // ** ATTN ** update link
             "MWI. <a href='https://example.com/' target='_blank' rel='noopener noreferrer'>All Rights Reserved.</a>",
@@ -177,4 +182,19 @@ module.exports = {
         },
         "gatsby-plugin-offline",
     ],
+
+    // for avoiding CORS while developing Netlify Functions locally
+    // read more: https://www.gatsbyjs.org/docs/api-proxy/#advanced-proxying
+    developMiddleware: (app) => {
+        app.use(
+            "/.netlify/functions/",
+            createProxyMiddleware({
+                target: "http://localhost:9000",
+                pathRewrite: {
+                    "/.netlify/functions/": "",
+                },
+            })
+        );
+    },
+    // ...
 };

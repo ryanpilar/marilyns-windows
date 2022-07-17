@@ -38,7 +38,11 @@ const ContactForm = () => {
             data: data,
         })
             .then((r) => {
-                handleServerResponse(true, "Thanks! for contact with us", form);
+                handleServerResponse(
+                    true,
+                    "Thanks! for connecting with us",
+                    form
+                );
             })
             .catch((r) => {
                 handleServerResponse(false, r.response.data.error, form);
@@ -137,7 +141,7 @@ const ContactForm = () => {
                     {serverState.status && (
                         <p
                             className={`form-output ${
-                                !serverState.status.ok ? "errorMsg" : "success"
+                                !serverState.status.ok ? "errorMsg" : "Success"
                             }`}
                         >
                             {serverState.status.msg}
