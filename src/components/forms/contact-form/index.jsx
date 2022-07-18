@@ -6,6 +6,7 @@ import { useFormUrl } from "@hooks";
 import { hasKey } from "@utils";
 import { FormGroup, Input, Textarea } from "@ui/form-elements";
 import Button from "@ui/button";
+import get from "lodash.get";
 
 const ContactForm = () => {
     const formUrl = useFormUrl();
@@ -31,13 +32,23 @@ const ContactForm = () => {
 
     const onSubmit = (data, e) => {
         const form = e.target;
+        const getTheFormUrl = formUrl;
+        console.log("form", form);
+        console.log("getForm URL", getTheFormUrl, typeof getTheFormUrl);
+
         setServerState({ submitting: true });
         axios({
             method: "post",
-            url: formUrl,
-            data: data,
+            url: "/.netlify/functions/hello",
+            // url: formUrl,
+            data: {
+                formData: data,
+                getFormUrl: getTheFormUrl,
+            },
         })
             .then((r) => {
+                // **** important ****
+                // accept the response, and handle if the status is different then that of 200
                 handleServerResponse(
                     true,
                     "Thanks! for connecting with us",
