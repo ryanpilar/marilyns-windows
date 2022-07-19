@@ -3,6 +3,7 @@ import { type } from "os";
 
 // For more info, check https://www.netlify.com/docs/functions/#javascript-lambda-functions
 export function handler(event, context, callback) {
+    event.preventDefault();
     let getData = JSON.parse(event.body);
 
     axios({
