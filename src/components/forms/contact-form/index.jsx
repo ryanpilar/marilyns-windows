@@ -47,6 +47,7 @@ const ContactForm = () => {
             },
         })
             .then((r) => {
+                console.log("**** TRUE FROM CONTACT FORM *****", r);
                 // **** important ****
                 // accept the response, and handle if the status is different then that of 200
                 handleServerResponse(

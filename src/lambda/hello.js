@@ -20,18 +20,12 @@ export function handler(event, context, callback) {
             return err;
         });
 
-    // fetch(data.getFormUrl, {
-    //     method: "POST",
-    //     body: data.formData,
-    // })
-    //     .then((response) => console.log("response", response))
-    //     .catch((error) => console.log("error", error));
-
     callback(null, {
         statusCode: 200,
         // That's the status code which will be returned when the function is executed to indicates that everything is OK
+        // conditional statement to check the status code coming from getFormss
         body: JSON.stringify({
-            msg: "Hello, wor! ",
+            msg: "Hello, xwor! ",
             event: event,
         }),
     });
