@@ -31,6 +31,7 @@ const ContactForm = () => {
     };
 
     const onSubmit = (data, e) => {
+        e.preventDefault();
         const form = e.target;
         const getTheFormUrl = formUrl;
         console.log("form", form);
