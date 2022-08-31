@@ -10,4 +10,5 @@ node-express-css-react-gatsby-graphql-bootstrap
 
 # 📸 Sample Wireframe:
 
-![image](https://user-images.githubusercontent.com/102194829/187529719-dde749b7-6ca9-43f5-a3c7-4d1f9766d34a.png
+![image](https://user-images.githubusercontent.com/102194829/187618927-cb05b929-8858-4fd8-aff4-c1de6ff8d89f.png)
+
