@@ -1,10 +1,12 @@
-# ☀️: marilyns-windows
+# 🧵 marilyns-windows
 
 --site under construction--
 
 This is a modern, full-stack website to help promote Marilyn’s company, contribute content through her blog and organize her social media presence. Blog content is integrated with Netlify CMS and is continuously deployed using GraphQL and netlify functions. The design of this site enables content creators to post without needing a technical background.
 
-# 💪: Tech Deployed
+Site Link: https://extraordinary-macaron-bcb7bc.netlify.app/ 
+
+# 💪 Tech Deployed
 
 node-express-css-react-gatsby-graphql-bootstrap
 
