@@ -9,21 +9,18 @@ import "@assets/css/bootstrap.css";
 import { GlobalStyle } from "@assets/css/main-style";
 import ScrollToTop from "@ui/scroll-to-top";
 import Transition from "@components/transition";
-import { SSRProvider } from "react-bootstrap";
 
 const Layout = ({ children, location }) => {
     return (
-        <SSRProvider>
-            <ThemeProvider theme={theme}>
-                <Transition location={location}>
-                    <div className="wrapper">
-                        <GlobalStyle />
-                        {children}
-                        <ScrollToTop />
-                    </div>
-                </Transition>
-            </ThemeProvider>
-        </SSRProvider>
+        <ThemeProvider theme={theme}>
+            <Transition location={location}>
+                <div className="wrapper">
+                    <GlobalStyle />
+                    {children}
+                    <ScrollToTop />
+                </div>
+            </Transition>
+        </ThemeProvider>
     );
 };
 
