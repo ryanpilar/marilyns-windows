@@ -2,8 +2,7 @@ import axios from "axios";
 import { type } from "os";
 
 // For more info, check https://www.netlify.com/docs/functions/#javascript-lambda-functions
-export function handler(event, context, callback) {
-    event.preventDefault();
+export async function handler(event, context, callback) {
     let getData = JSON.parse(event.body);
 
     axios({

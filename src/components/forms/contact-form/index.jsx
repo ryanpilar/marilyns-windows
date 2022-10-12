@@ -39,9 +39,8 @@ const ContactForm = () => {
         setServerState({ submitting: true });
         axios({
             method: "post",
-            // url: "/.netlify/functions/hello",
+            url: "/.netlify/functions/hello",
             // url: formUrl,
-            url: "https://lovely-tarsier-2fa0a1.netlify.app/.netlify/functions/hello",
             data: {
                 formData: data,
                 getFormUrl: getTheFormUrl,
@@ -60,8 +59,6 @@ const ContactForm = () => {
             .catch((r) => {
                 handleServerResponse(false, r.response.data.error, form);
             });
-
-        e.preventDefault();
     };
     return (
         <form onSubmit={handleSubmit(onSubmit)}>
