@@ -71,6 +71,7 @@ module.exports = {
     // 	"MarkdownRemark.frontmatter.author": `AuthorsJson.name`,
     // },
     plugins: [
+        `gatsby-plugin-netlify`,
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-image`,
         `gatsby-transformer-sharp`,
