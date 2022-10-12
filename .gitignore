@@ -70,3 +70,6 @@ yarn-error.log
 
 # netlify lambda functions
 /lambda
+
+# gatsby server side rendering
+gatsby-ssr.js
