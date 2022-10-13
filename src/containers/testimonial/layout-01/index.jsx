@@ -36,6 +36,7 @@ const TestimonialArea = ({ data }) => {
                     subtitle={data.section_title?.subtitle}
                 />
             )}
+
             {data?.items && (
                 <SwiperSlider
                     options={slider}
