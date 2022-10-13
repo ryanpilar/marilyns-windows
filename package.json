@@ -24,6 +24,7 @@
     "lint:fix": "npm run format & npm run lint --fix"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.6",
     "@styled-system/theme-get": "^5.1.2",
     "babel-plugin-styled-components": "^2.0.6",
     "bootstrap": "^5.1.3",
