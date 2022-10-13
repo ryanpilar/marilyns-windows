@@ -24,6 +24,7 @@
     "lint:fix": "npm run format & npm run lint --fix"
   },
   "dependencies": {
+    "@adobe/react-spectrum": "^3.22.0",
     "@popperjs/core": "^2.11.6",
     "@styled-system/theme-get": "^5.1.2",
     "babel-eslint": "^10.1.0",
