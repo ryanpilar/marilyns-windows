@@ -53,7 +53,6 @@ const TestimonialArea = ({ data }) => {
                                 rating={testimonial.rating}
                                 review={testimonial.description}
                                 subject={testimonial.subject}
-                                key={testimonial.id}
                             />
                         </SwiperSlide>
                     ))}
