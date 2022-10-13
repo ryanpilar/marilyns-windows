@@ -5,6 +5,7 @@ import { Container } from "@ui/wrapper";
 import SwiperSlider, { SwiperSlide } from "@ui/swiper";
 import { ItemType } from "@utils/types";
 import { SectionWrap } from "./style";
+import { log } from "console";
 
 const slider = {
     slidesPerView: 6,
@@ -40,6 +41,9 @@ const PartnerArea = ({ data }) => {
                 {data?.items && (
                     <SwiperSlider options={slider} vAlign="center">
                         {data.items?.map((item) => {
+                            {
+                                console.log("ITEM", item);
+                            }
                             return (
                                 <SwiperSlide key={item.id}>
                                     <ClientLogo
