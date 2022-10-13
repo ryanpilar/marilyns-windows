@@ -67,6 +67,7 @@
     "styled-system": "^5.1.5",
     "swiper": "^8.0.7",
     "tinycolor2": "^1.4.2",
+    "typescript": "^4.8.4",
     "vivus": "^0.4.6",
     "webpack": "^5.2.0"
   },
