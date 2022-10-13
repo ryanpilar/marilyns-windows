@@ -70,7 +70,7 @@ module.exports = {
     // mapping: {
     // 	"MarkdownRemark.frontmatter.author": `AuthorsJson.name`,
     // },
-    jsxRuntime: "automatic",
+    // jsxRuntime: "automatic",
     plugins: [
         `gatsby-plugin-netlify`,
         `gatsby-plugin-react-helmet`,
