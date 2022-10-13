@@ -44,6 +44,7 @@ const TestimonialArea = ({ data }) => {
                 >
                     {data.items?.map((testimonial) => (
                         <SwiperSlide className="item" key={testimonial.id}>
+                            <h3>{testimonial.name}</h3>
                             <Testimonial
                                 authorName={testimonial.name}
                                 authroRole={testimonial.designation}
