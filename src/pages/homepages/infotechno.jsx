@@ -22,67 +22,71 @@ import ContactArea from "@containers/contact/layout-05";
 import AboutArea2 from "@containers/about/layout-04";
 import ITSolutionArea2 from "@containers/it-solution/layout-06";
 
+import SSRProvider from "react-bootstrap/SSRProvider";
+
 const InfotechnoPage = ({ location, data }) => {
     const content = normalizedData(data?.page.content || []);
     const globalContent = normalizedData(data?.allGeneral.nodes || []);
 
     return (
-        <Layout location={location}>
-            <Seo title="Infotechno" />
-            <Header
-                data={{
-                    ...globalContent["header"],
-                    ...globalContent["menu"],
-                }}
-            />
-            <main className="site-wrapper-reveal">
-                <HeroArea
-                    data={content["hero-section"]}
-                    metaData={{ ...data.site.siteMetadata }}
-                />
-                <PartnerArea data={content["partner-section"]} />
-                <AboutArea2 data={content["about-section"]} />
-                {/* <ITSolutionArea2
+        <SSRProvider>
+            <Layout location={location}>
+                <Seo title="Infotechno" />
+                <Header
                     data={{
-                        ...content["feature-section"],
-                        items: data.allItSolution.nodes,
-                    }}
-                /> */}
-                {/* <ITSolutionArea
-                    data={{
-                        ...content["feature-section"],
-                        items: data.allItSolution.nodes,
-                    }}
-                /> */}
-                <ITServiceArea
-                    data={{
-                        ...content["service-section"],
-                        items: data.allItService.nodes,
+                        ...globalContent["header"],
+                        ...globalContent["menu"],
                     }}
                 />
-                {/* <FunfactArea data={content["funfact-section"]} /> */}
-                {/* <CtaArea data={content["cta-section"]} /> */}
-                {/* <CaseStudyArea
-                    data={{
-                        ...content["case-study-section"],
-                        items: data.allCaseStudy.nodes,
-                    }}
-                /> */}
-                <TestimonialArea data={content["testimonial-section"]} />
-                {/* <BlogArea
-                    data={{
-                        ...content["blog-section"],
-                        featuredBlogs: data.featuredBlogs.nodes,
-                        recentBlogs: data.recentBlogs.nodes,
-                    }}
-                /> */}
-                <ContactArea
-                    data={content["contact-section"]}
-                    metaData={{ ...data.site.siteMetadata }}
-                />
-            </main>
-            <Footer data={{ ...data.site.siteMetadata }} />
-        </Layout>
+                <main className="site-wrapper-reveal">
+                    <HeroArea
+                        data={content["hero-section"]}
+                        metaData={{ ...data.site.siteMetadata }}
+                    />
+                    <PartnerArea data={content["partner-section"]} />
+                    <AboutArea2 data={content["about-section"]} />
+                    {/* <ITSolutionArea2
+                        data={{
+                            ...content["feature-section"],
+                            items: data.allItSolution.nodes,
+                        }}
+                    /> */}
+                    {/* <ITSolutionArea
+                        data={{
+                            ...content["feature-section"],
+                            items: data.allItSolution.nodes,
+                        }}
+                    /> */}
+                    <ITServiceArea
+                        data={{
+                            ...content["service-section"],
+                            items: data.allItService.nodes,
+                        }}
+                    />
+                    {/* <FunfactArea data={content["funfact-section"]} /> */}
+                    {/* <CtaArea data={content["cta-section"]} /> */}
+                    {/* <CaseStudyArea
+                        data={{
+                            ...content["case-study-section"],
+                            items: data.allCaseStudy.nodes,
+                        }}
+                    /> */}
+                    <TestimonialArea data={content["testimonial-section"]} />
+                    {/* <BlogArea
+                        data={{
+                            ...content["blog-section"],
+                            featuredBlogs: data.featuredBlogs.nodes,
+                            recentBlogs: data.recentBlogs.nodes,
+                        }}
+                    /> */}
+                    <ContactArea
+                        data={content["contact-section"]}
+                        metaData={{ ...data.site.siteMetadata }}
+                    />
+                </main>
+                <Footer data={{ ...data.site.siteMetadata }} />
+            </Layout>
+        </SSRProvider>
     );
 };
 
