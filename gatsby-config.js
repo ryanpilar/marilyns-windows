@@ -80,13 +80,7 @@ module.exports = {
         // `gatsby-plugin-styled-components`,
         "gatsby-transformer-json",
         // "gatsby-plugin-preload-fonts",
-
-        {
-            resolve: `gatsby-plugin-styled-components`,
-            options: {
-                // Add any options here
-            },
-        },
+        `gatsby-plugin-styled-components`,
         {
             resolve: `gatsby-transformer-remark`,
             options: {
