@@ -77,16 +77,9 @@ module.exports = {
         `gatsby-plugin-image`,
         `gatsby-transformer-sharp`,
         `gatsby-plugin-sharp`,
-        // `gatsby-plugin-styled-components`,
+        `gatsby-plugin-styled-components`,
         "gatsby-transformer-json",
         // "gatsby-plugin-preload-fonts",
-
-        {
-            resolve: `gatsby-plugin-styled-components`,
-            options: {
-                // Add any options here
-            },
-        },
         {
             resolve: `gatsby-transformer-remark`,
             options: {
