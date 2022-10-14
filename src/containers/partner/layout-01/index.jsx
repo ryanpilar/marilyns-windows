@@ -40,10 +40,6 @@ const PartnerArea = ({ data }) => {
                 {data?.items && (
                     <SwiperSlider options={slider} vAlign="center">
                         {data.items?.map((item) => {
-                            {
-                                /* console.log("ITEM", item); */
-                            }
-
                             return (
                                 <SwiperSlide key={item.id}>
                                     <ClientLogo
