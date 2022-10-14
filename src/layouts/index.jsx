@@ -10,21 +10,21 @@ import { GlobalStyle } from "@assets/css/main-style";
 import ScrollToTop from "@ui/scroll-to-top";
 import Transition from "@components/transition";
 
-import { SSRProvider } from "react-aria";
+// import { SSRProvider } from "react-aria";
 
 const Layout = ({ children, location }) => {
     return (
-        <SSRProvider>
-            <ThemeProvider theme={theme}>
-                <Transition location={location}>
-                    <div className="wrapper">
-                        <GlobalStyle />
-                        {children}
-                        <ScrollToTop />
-                    </div>
-                </Transition>
-            </ThemeProvider>
-        </SSRProvider>
+        // <SSRProvider>
+        <ThemeProvider theme={theme}>
+            <Transition location={location}>
+                <div className="wrapper">
+                    <GlobalStyle />
+                    {children}
+                    <ScrollToTop />
+                </div>
+            </Transition>
+        </ThemeProvider>
+        // </SSRProvider>
     );
 };
 
